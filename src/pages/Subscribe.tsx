@@ -34,6 +34,9 @@ export function Subscribe() {
 
   return (
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+      <img src="/src/assets/react-bg.svg" alt=""
+        className="absolute pt-[10px]"
+      />
       <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
         <div className="max-w-[640px]">
           <Logo />
