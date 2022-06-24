@@ -3,6 +3,7 @@ import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-reac
 
 import '@vime/core/themes/default.css';
 import { gql, useQuery } from "@apollo/client";
+import { Footer } from "./Footer";
 
 const GET_LESSON_BY_SLUG_QUERY = gql `
   query GetLessonBySlug ($slug: String) {
@@ -94,7 +95,7 @@ export function Video(props: VideoProps) {
               </a>
             </div>
           </div>
-          <div className="gap-8 mt-20 grid grid-cols-2">
+          <div className="gap-8 mt-20 grid grid-cols-2 pb-20">
             <a 
             className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition:colors"
             href="">
@@ -132,6 +133,7 @@ export function Video(props: VideoProps) {
               </div>
             </a>
           </div>
+          <Footer />
         </div>
     </div>
   )
