@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
-import { Footer } from "../components/Footer";
+import { useEffect } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import { Video } from "../components/Video";
