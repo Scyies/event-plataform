@@ -1,7 +1,9 @@
 export function ErrorPage(){
   return(
-    <div>
-      ERROOOOOOUUUUU OTÁRIO
+    <div className="bg-red">
+      <p className="text-300 text-white">
+        ERROOOOOOUUUUU OTÁRIO
+      </p>
     </div>
   )
 }

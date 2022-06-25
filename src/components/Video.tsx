@@ -4,10 +4,13 @@ import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-reac
 import '@vime/core/themes/default.css';
 import { Footer } from "./Footer";
 import { useGetLessonBySlugQuery } from "../graphql/generated";
+import { useNavigate } from "react-router-dom";
 
 interface VideoProps {
   lessonSlug: string;
 }
+
+
 
 export function Video(props: VideoProps) {
   const { data } = useGetLessonBySlugQuery({
@@ -16,10 +19,13 @@ export function Video(props: VideoProps) {
     }
   })
 
+  // const navigate = useNavigate();
+
   if (!data || !data.lesson) {
     return (
+      // navigate('/404')
       <div className="flex-1">
-        <img src="https://c.tenor.com/dkQL4T9-tC0AAAAC/jailson-mendes-observando.gif" alt="" />
+        <p className="items-center">Carregando...</p>
       </div>
     )
   }
