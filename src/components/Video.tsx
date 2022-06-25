@@ -17,11 +17,11 @@ export function Video(props: VideoProps) {
   })
 
   if (!data || !data.lesson) {
-    return <div className="flex-1">
-        <p>
-          Carregando...
-        </p>
+    return (
+      <div className="flex-1">
+        <img src="https://c.tenor.com/dkQL4T9-tC0AAAAC/jailson-mendes-observando.gif" alt="" />
       </div>
+    )
   }
   
   return (
