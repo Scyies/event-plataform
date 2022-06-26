@@ -12,7 +12,7 @@ export function Header(props: EventProps) {
   return (
     <header className="w-full py-5 flex items-start justify-around sm:justify-center bg-gray-700 border-b border-gray-600 fixed sm:relative z-50">
       <Logo />
-      <div className="flex flex-row items-center sm:hidden" onClick={props.clickFunction}>
+      <div className="flex flex-row items-center sm:hidden cursor-pointer sm:cursor-auto" onClick={props.clickFunction}>
         <p className="text-[14px] text-gray-100">
           Aulas
         </p>
