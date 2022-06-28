@@ -22,7 +22,10 @@ export function Lesson(props: LessonProps) {
   const isActiveLesson = slug === props.slug;
 
   return (
-    <Link to={`/event/lesson/${props.slug}`} className='group'>
+    <Link to={`/event/lesson/${props.slug}`} className={classNames('group', {
+      'pointer-events-none': !isLessonAvailable,
+      'pointer-events-auto': isLessonAvailable
+    })}>
       <span className="text-gray-300">
         {availableDateFormatted}
       </span>

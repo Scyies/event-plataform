@@ -4,8 +4,6 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-<!-- # --------------------------
-### Tecnologias | Projeto | Layout -->
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -27,10 +25,11 @@ Durante a semana de desenvolvimento, além do projeto base repassado no evento, 
 - Responsividade, que embora tenha seu design feito no Figma, não foi implementada durante a semana;
 - Correção de alguns problemas na visualização dos vídeos com a biblioteca do vime, trocando pela react-youtube;
 - Melhora nas rotas após o cadastro inicial, sendo redirecionado sempre para o primeiro vídeo cadastrado na API;
+- Clique nas aulas ainda não disponiveis desabilitado
 
 ## 🔖 Layout
 
 O layout utilizado como base está no link abaixo.
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-los
 
-- [Layout](https://www.figma.com/file/wpKv9TCs6gdE75exLFQ9OZ/Plataforma-de-evento---Ignite-Lab-(Community))
+-[Layout](https://www.figma.com/file/wpKv9TCs6gdE75exLFQ9OZ/Plataforma-de-evento---Ignite-Lab-(Community))
