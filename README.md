@@ -1,7 +1,3 @@
-<h1 align="center">
-    <img alt="Happy" title="Happy" src=".github/logo.svg" />
-</h1>
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -37,4 +33,4 @@ Durante a semana de desenvolvimento, além do projeto base repassado no evento, 
 O layout utilizado como base está no link abaixo.
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-los
 
--[Layout](https://www.figma.com/file/wpKv9TCs6gdE75exLFQ9OZ/Plataforma-de-evento---Ignite-Lab-(Community))
+- [Layout](https://www.figma.com/file/wpKv9TCs6gdE75exLFQ9OZ/Plataforma-de-evento---Ignite-Lab-(Community))
